@@ -79,6 +79,7 @@ public class JFAdministracion extends javax.swing.JFrame {
 
         jPanel1.setBackground(new java.awt.Color(153, 255, 153));
 
+        jPanel4.setBackground(new java.awt.Color(255, 255, 255));
         jPanel4.setBorder(javax.swing.BorderFactory.createTitledBorder(""));
 
         jLabel1.setText("Cédula :");
@@ -219,6 +220,7 @@ public class JFAdministracion extends javax.swing.JFrame {
 
         jPanel2.setBackground(new java.awt.Color(153, 255, 153));
 
+        jPanel5.setBackground(new java.awt.Color(255, 255, 255));
         jPanel5.setBorder(javax.swing.BorderFactory.createTitledBorder(""));
 
         jLabel7.setText("Cédula :");
@@ -356,6 +358,7 @@ public class JFAdministracion extends javax.swing.JFrame {
 
         jPanel3.setBackground(new java.awt.Color(153, 255, 153));
 
+        jPanel6.setBackground(new java.awt.Color(255, 255, 255));
         jPanel6.setBorder(javax.swing.BorderFactory.createTitledBorder(""));
 
         jLabel18.setText("Nombres : ");
@@ -396,8 +399,8 @@ public class JFAdministracion extends javax.swing.JFrame {
                             .addComponent(jLabel23)
                             .addComponent(jLabel22)
                             .addComponent(jComboBox4, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(jTextField5, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(jLabel27))))
+                            .addComponent(jLabel27)
+                            .addComponent(jTextField5, javax.swing.GroupLayout.PREFERRED_SIZE, 60, javax.swing.GroupLayout.PREFERRED_SIZE))))
                 .addContainerGap(286, Short.MAX_VALUE))
         );
         jPanel6Layout.setVerticalGroup(
