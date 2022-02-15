@@ -525,20 +525,20 @@ public class JFAdministradores extends javax.swing.JFrame {
     }//GEN-LAST:event_jTextField1ActionPerformed
 
     private void jButton3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton3ActionPerformed
-        JFAdministracion fjadmin = new JFAdministracion();
-        fjadmin.setVisible(true);
+        JFMenu fjmenu = new JFMenu();
+        fjmenu.setVisible(true);
         this.setVisible(false);
     }//GEN-LAST:event_jButton3ActionPerformed
 
     private void jButton5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton5ActionPerformed
-        JFAdministracion fjadmin1 = new JFAdministracion();
-        fjadmin1.setVisible(true);
+        JFMenu fjmenu = new JFMenu();
+        fjmenu.setVisible(true);
         this.setVisible(false);
     }//GEN-LAST:event_jButton5ActionPerformed
 
     private void jButton4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton4ActionPerformed
-        JFAdministracion fjadmin2 = new JFAdministracion();
-        fjadmin2.setVisible(true);
+        JFMenu fjmenu = new JFMenu();
+        fjmenu.setVisible(true);
         this.setVisible(false);
     }//GEN-LAST:event_jButton4ActionPerformed
 
