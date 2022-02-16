@@ -25,6 +25,10 @@ public class JFMenu extends javax.swing.JFrame {
      */
     public JFMenu() {
         initComponents();
+        setLocationRelativeTo(null);
+        this.setResizable(false);
+        //System.out.println(this.size());
+        
     }
 
     /**
@@ -39,11 +43,11 @@ public class JFMenu extends javax.swing.JFrame {
         jPanel2 = new javax.swing.JPanel();
         jPanel3 = new javax.swing.JPanel();
         jLabel6 = new javax.swing.JLabel();
-        jButton1 = new javax.swing.JButton();
-        jButton2 = new javax.swing.JButton();
-        jButton3 = new javax.swing.JButton();
-        jButton4 = new javax.swing.JButton();
-        jButton5 = new javax.swing.JButton();
+        jBClientes = new javax.swing.JButton();
+        jBEmpleados = new javax.swing.JButton();
+        jBFacturacion = new javax.swing.JButton();
+        jBAgendamiento = new javax.swing.JButton();
+        jBAdministracion = new javax.swing.JButton();
         jButton12 = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
@@ -59,7 +63,7 @@ public class JFMenu extends javax.swing.JFrame {
         jPanel3.setLayout(jPanel3Layout);
         jPanel3Layout.setHorizontalGroup(
             jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 117, Short.MAX_VALUE)
+            .addGap(0, 143, Short.MAX_VALUE)
         );
         jPanel3Layout.setVerticalGroup(
             jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -69,26 +73,47 @@ public class JFMenu extends javax.swing.JFrame {
         jLabel6.setFont(new java.awt.Font("Arial Rounded MT Bold", 0, 48)); // NOI18N
         jLabel6.setText("S-Brush");
 
-        jButton1.setBackground(new java.awt.Color(255, 204, 204));
-        jButton1.setFont(new java.awt.Font("Arial Rounded MT Bold", 0, 24)); // NOI18N
-        jButton1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Iconos/objetivo.png"))); // NOI18N
-        jButton1.setText("Clientes");
+        jBClientes.setBackground(new java.awt.Color(255, 204, 204));
+        jBClientes.setFont(new java.awt.Font("Arial Rounded MT Bold", 0, 24)); // NOI18N
+        jBClientes.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Iconos/objetivo.png"))); // NOI18N
+        jBClientes.setText("Clientes");
+        jBClientes.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jBClientesActionPerformed(evt);
+            }
+        });
 
-        jButton2.setBackground(new java.awt.Color(255, 204, 204));
-        jButton2.setFont(new java.awt.Font("Arial Rounded MT Bold", 0, 24)); // NOI18N
-        jButton2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Iconos/empleado.png"))); // NOI18N
-        jButton2.setText("Empleados");
+        jBEmpleados.setBackground(new java.awt.Color(255, 204, 204));
+        jBEmpleados.setFont(new java.awt.Font("Arial Rounded MT Bold", 0, 24)); // NOI18N
+        jBEmpleados.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Iconos/empleado.png"))); // NOI18N
+        jBEmpleados.setText("Empleados");
+        jBEmpleados.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jBEmpleadosActionPerformed(evt);
+            }
+        });
 
-        jButton3.setBackground(new java.awt.Color(255, 204, 204));
-        jButton3.setFont(new java.awt.Font("Arial Rounded MT Bold", 0, 24)); // NOI18N
-        jButton3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Iconos/facturacion.png"))); // NOI18N
-        jButton3.setText("Facturación");
+        jBFacturacion.setBackground(new java.awt.Color(255, 204, 204));
+        jBFacturacion.setFont(new java.awt.Font("Arial Rounded MT Bold", 0, 24)); // NOI18N
+        jBFacturacion.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Iconos/facturacion.png"))); // NOI18N
+        jBFacturacion.setText("Facturación");
+        jBFacturacion.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jBFacturacionActionPerformed(evt);
+            }
+        });
 
-        jButton4.setBackground(new java.awt.Color(255, 204, 204));
-        jButton4.setFont(new java.awt.Font("Arial Rounded MT Bold", 0, 24)); // NOI18N
-        jButton4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Iconos/cita.png"))); // NOI18N
-        jButton4.setText("Agendamiento de Citas");
+        jBAgendamiento.setBackground(new java.awt.Color(255, 204, 204));
+        jBAgendamiento.setFont(new java.awt.Font("Arial Rounded MT Bold", 0, 24)); // NOI18N
+        jBAgendamiento.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Iconos/cita.png"))); // NOI18N
+        jBAgendamiento.setText("Agendamiento de Citas");
+        jBAgendamiento.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jBAgendamientoActionPerformed(evt);
+            }
+        });
 
+<<<<<<< HEAD
         jButton5.setBackground(new java.awt.Color(255, 204, 204));
         jButton5.setFont(new java.awt.Font("Arial Rounded MT Bold", 0, 24)); // NOI18N
         jButton5.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Iconos/equipo.png"))); // NOI18N
@@ -96,6 +121,15 @@ public class JFMenu extends javax.swing.JFrame {
         jButton5.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton5ActionPerformed(evt);
+=======
+        jBAdministracion.setBackground(new java.awt.Color(255, 204, 204));
+        jBAdministracion.setFont(new java.awt.Font("Arial Rounded MT Bold", 0, 24)); // NOI18N
+        jBAdministracion.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Iconos/equipo.png"))); // NOI18N
+        jBAdministracion.setText("Administración");
+        jBAdministracion.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jBAdministracionActionPerformed(evt);
+>>>>>>> main
             }
         });
 
@@ -124,13 +158,13 @@ public class JFMenu extends javax.swing.JFrame {
                     .addGroup(jPanel2Layout.createSequentialGroup()
                         .addGap(106, 106, 106)
                         .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(jButton2)
-                            .addComponent(jButton1)
-                            .addComponent(jButton4)
-                            .addComponent(jButton3)
-                            .addComponent(jButton5))
+                            .addComponent(jBEmpleados)
+                            .addComponent(jBClientes)
+                            .addComponent(jBAgendamiento)
+                            .addComponent(jBFacturacion)
+                            .addComponent(jBAdministracion))
                         .addContainerGap(420, Short.MAX_VALUE))
-                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel2Layout.createSequentialGroup()
+                    .addGroup(jPanel2Layout.createSequentialGroup()
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                         .addComponent(jButton12)
                         .addGap(101, 101, 101))))
@@ -142,18 +176,18 @@ public class JFMenu extends javax.swing.JFrame {
                 .addGap(86, 86, 86)
                 .addComponent(jLabel6, javax.swing.GroupLayout.PREFERRED_SIZE, 42, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(64, 64, 64)
-                .addComponent(jButton1)
+                .addComponent(jBClientes)
                 .addGap(39, 39, 39)
-                .addComponent(jButton2)
+                .addComponent(jBEmpleados)
                 .addGap(38, 38, 38)
-                .addComponent(jButton4)
+                .addComponent(jBAgendamiento)
                 .addGap(33, 33, 33)
-                .addComponent(jButton3)
+                .addComponent(jBFacturacion)
                 .addGap(34, 34, 34)
-                .addComponent(jButton5)
+                .addComponent(jBAdministracion)
                 .addGap(7, 7, 7)
                 .addComponent(jButton12)
-                .addContainerGap(60, Short.MAX_VALUE))
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
@@ -176,11 +210,43 @@ public class JFMenu extends javax.swing.JFrame {
         System.exit(EXIT_ON_CLOSE);
     }//GEN-LAST:event_jButton12ActionPerformed
 
+<<<<<<< HEAD
     private void jButton5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton5ActionPerformed
         JFAdministracion jfadministracion = new JFAdministracion();
         jfadministracion.setVisible(true);
         this.setVisible(false);
     }//GEN-LAST:event_jButton5ActionPerformed
+=======
+    private void jBEmpleadosActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jBEmpleadosActionPerformed
+       JFEmpleados jf=new JFEmpleados();
+       jf.setVisible(true);
+       this.setVisible(false);
+    }//GEN-LAST:event_jBEmpleadosActionPerformed
+
+    private void jBClientesActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jBClientesActionPerformed
+        JFClientes jfcli=new JFClientes();
+       jfcli.setVisible(true);
+       this.setVisible(false);
+    }//GEN-LAST:event_jBClientesActionPerformed
+
+    private void jBAgendamientoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jBAgendamientoActionPerformed
+        JFAgendamiento jf=new JFAgendamiento();
+       jf.setVisible(true);
+       this.setVisible(false);
+    }//GEN-LAST:event_jBAgendamientoActionPerformed
+
+    private void jBFacturacionActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jBFacturacionActionPerformed
+        JFFacturacion jf=new JFFacturacion();
+       jf.setVisible(true);
+       this.setVisible(false);
+    }//GEN-LAST:event_jBFacturacionActionPerformed
+
+    private void jBAdministracionActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jBAdministracionActionPerformed
+        JFAdministracion jf=new JFAdministracion();
+       jf.setVisible(true);
+       this.setVisible(false);
+    }//GEN-LAST:event_jBAdministracionActionPerformed
+>>>>>>> main
 
     /**
      * @param args the command line arguments
@@ -218,12 +284,12 @@ public class JFMenu extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JButton jButton1;
+    private javax.swing.JButton jBAdministracion;
+    private javax.swing.JButton jBAgendamiento;
+    private javax.swing.JButton jBClientes;
+    private javax.swing.JButton jBEmpleados;
+    private javax.swing.JButton jBFacturacion;
     private javax.swing.JButton jButton12;
-    private javax.swing.JButton jButton2;
-    private javax.swing.JButton jButton3;
-    private javax.swing.JButton jButton4;
-    private javax.swing.JButton jButton5;
     private javax.swing.JLabel jLabel6;
     private javax.swing.JPanel jPanel2;
     private javax.swing.JPanel jPanel3;
