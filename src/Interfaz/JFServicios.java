@@ -26,8 +26,9 @@ public class JFServicios extends javax.swing.JFrame {
         AutoCompleteDecorator.decorate(jCBServEli);
         AutoCompleteDecorator.decorate(jCBDescEli);
         AutoCompleteDecorator.decorate(jCBCodDescAsg);
-       
-        
+        setLocationRelativeTo(null);
+        this.setResizable(false);
+            
         
     }
 
@@ -187,7 +188,7 @@ public class JFServicios extends javax.swing.JFrame {
                 .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jButton1)
                     .addComponent(jButton10))
-                .addContainerGap(275, Short.MAX_VALUE))
+                .addContainerGap(298, Short.MAX_VALUE))
         );
 
         jTabbedPane4.addTab("Servicio", new javax.swing.ImageIcon(getClass().getResource("/Iconos/tijeras.png")), jPanel2); // NOI18N
@@ -278,7 +279,7 @@ public class JFServicios extends javax.swing.JFrame {
                     .addComponent(jCBCodTreinta, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addGap(18, 18, 18)
                 .addComponent(jScrollPane4, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(244, Short.MAX_VALUE))
+                .addContainerGap(267, Short.MAX_VALUE))
         );
 
         jCBCodServ.addTab("Servicios más solicitados los últimos 30 días", new javax.swing.ImageIcon(getClass().getResource("/Iconos/tijeras.png")), jPanel8); // NOI18N
@@ -332,7 +333,7 @@ public class JFServicios extends javax.swing.JFrame {
                     .addComponent(jCBCodServi, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addGap(39, 39, 39)
                 .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 110, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 171, Short.MAX_VALUE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 194, Short.MAX_VALUE)
                 .addComponent(jButton9)
                 .addContainerGap())
         );
@@ -470,7 +471,7 @@ public class JFServicios extends javax.swing.JFrame {
                 .addGroup(jPanel5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jButton5)
                     .addComponent(jButton4))
-                .addContainerGap(263, Short.MAX_VALUE))
+                .addContainerGap(286, Short.MAX_VALUE))
         );
 
         jTabbedPane6.addTab("Servicio", new javax.swing.ImageIcon(getClass().getResource("/Iconos/tijeras.png")), jPanel5); // NOI18N
@@ -528,7 +529,7 @@ public class JFServicios extends javax.swing.JFrame {
                 .addGroup(jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jButton2)
                     .addComponent(jButton12))
-                .addContainerGap(333, Short.MAX_VALUE))
+                .addContainerGap(356, Short.MAX_VALUE))
         );
 
         jTabbedPane7.addTab("Servicio", new javax.swing.ImageIcon(getClass().getResource("/Iconos/tijeras.png")), jPanel3); // NOI18N
@@ -573,7 +574,7 @@ public class JFServicios extends javax.swing.JFrame {
                 .addGroup(jPanel16Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jButton6)
                     .addComponent(jButton13))
-                .addContainerGap(333, Short.MAX_VALUE))
+                .addContainerGap(356, Short.MAX_VALUE))
         );
 
         jTabbedPane7.addTab("Descuento", new javax.swing.ImageIcon(getClass().getResource("/Iconos/salario.png")), jPanel16); // NOI18N
@@ -643,7 +644,7 @@ public class JFServicios extends javax.swing.JFrame {
                 .addGroup(jPanel15Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jButton15)
                     .addComponent(jButton16))
-                .addContainerGap(290, Short.MAX_VALUE))
+                .addContainerGap(313, Short.MAX_VALUE))
         );
 
         jTabbedPane1.addTab("Descuento", new javax.swing.ImageIcon(getClass().getResource("/Iconos/salario.png")), jPanel15); // NOI18N
@@ -673,8 +674,8 @@ public class JFServicios extends javax.swing.JFrame {
             jPanel9Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel9Layout.createSequentialGroup()
                 .addContainerGap()
-                .addComponent(jTabbedPane3, javax.swing.GroupLayout.PREFERRED_SIZE, 513, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(36, Short.MAX_VALUE))
+                .addComponent(jTabbedPane3, javax.swing.GroupLayout.DEFAULT_SIZE, 536, Short.MAX_VALUE)
+                .addContainerGap())
         );
 
         jButton11.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Iconos/atras.png"))); // NOI18N
