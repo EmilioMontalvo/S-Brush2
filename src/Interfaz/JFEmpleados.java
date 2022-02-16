@@ -20,6 +20,7 @@ public class JFEmpleados extends javax.swing.JFrame {
         initComponents();
         this.setLocationRelativeTo(null);
         this.setResizable(false);
+        //System.out.println(this.size());
         
         
         
