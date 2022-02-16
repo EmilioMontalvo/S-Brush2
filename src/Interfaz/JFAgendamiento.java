@@ -72,7 +72,7 @@ public class JFAgendamiento extends javax.swing.JFrame {
             }
         });
 
-        jLabel4.setText("Cédula de Cliente");
+        jLabel4.setText("Cédula del Cliente");
 
         jLabel5.setText("Nombre del Cliente");
 
@@ -86,7 +86,7 @@ public class JFAgendamiento extends javax.swing.JFrame {
 
         jLabel8.setText("Servicios");
 
-        jLabel9.setText("Codigo Servicio");
+        jLabel9.setText("Código del Servicio");
 
         jTextField7.setEditable(false);
 
