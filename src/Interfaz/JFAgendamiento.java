@@ -72,7 +72,7 @@ public class JFAgendamiento extends javax.swing.JFrame {
             }
         });
 
-        jLabel4.setText("Cédula de Cliente");
+        jLabel4.setText("Cédula del Cliente");
 
         jLabel5.setText("Nombre del Cliente");
 
@@ -86,7 +86,7 @@ public class JFAgendamiento extends javax.swing.JFrame {
 
         jLabel8.setText("Servicios");
 
-        jLabel9.setText("Codigo Servicio");
+        jLabel9.setText("Código del Servicio");
 
         jTextField7.setEditable(false);
 
@@ -150,6 +150,11 @@ public class JFAgendamiento extends javax.swing.JFrame {
         });
 
         jButton7.setText("Cancelar");
+        jButton7.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton7ActionPerformed(evt);
+            }
+        });
 
         jLabel12.setText("Hora de Inicio");
 
@@ -321,7 +326,7 @@ public class JFAgendamiento extends javax.swing.JFrame {
         JFDatos datos = new JFDatos();
         datos.setVisible(true);
         datos.jButton1.setText("Actualizar");
-        
+
     }//GEN-LAST:event_jButton4ActionPerformed
 
     private void jButton5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton5ActionPerformed
@@ -344,6 +349,13 @@ public class JFAgendamiento extends javax.swing.JFrame {
         cliente.setVisible(true);
 
     }//GEN-LAST:event_jButton3ActionPerformed
+
+    private void jButton7ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton7ActionPerformed
+        // TODO add your handling code here:
+        JFMenu fjmenu = new JFMenu();
+        fjmenu.setVisible(true);
+        this.setVisible(false);
+    }//GEN-LAST:event_jButton7ActionPerformed
 
     /**
      * @param args the command line arguments
