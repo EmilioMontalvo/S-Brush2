@@ -700,7 +700,7 @@ public class JFServicios extends javax.swing.JFrame {
                 .addGap(49, 49, 49))
             .addGroup(jPanel1Layout.createSequentialGroup()
                 .addComponent(jButton11)
-                .addGap(178, 178, 178)
+                .addGap(188, 188, 188)
                 .addComponent(jLabel10)
                 .addGap(0, 0, Short.MAX_VALUE))
         );
@@ -715,7 +715,7 @@ public class JFServicios extends javax.swing.JFrame {
                     .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel1Layout.createSequentialGroup()
                         .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                         .addComponent(jLabel10)
-                        .addGap(18, 18, 18)))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)))
                 .addComponent(jPanel9, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(57, 57, 57))
         );
