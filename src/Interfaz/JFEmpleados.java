@@ -18,7 +18,8 @@ public class JFEmpleados extends javax.swing.JFrame {
      */
     public JFEmpleados() {
         initComponents();
-        
+        this.setLocationRelativeTo(null);
+        this.setResizable(false);
         
         
         
@@ -225,6 +226,10 @@ public class JFEmpleados extends javax.swing.JFrame {
         setTitle("S-Brush");
 
         jPanel3.setBackground(new java.awt.Color(255, 204, 204));
+
+        jTabbedPane1.setBackground(new java.awt.Color(255, 255, 255));
+
+        jTabbedPane4.setBackground(new java.awt.Color(255, 255, 255));
 
         jPanel1.setBackground(new java.awt.Color(255, 255, 255));
 
@@ -1416,6 +1421,11 @@ public class JFEmpleados extends javax.swing.JFrame {
         jButton12.setBorder(null);
         jButton12.setBorderPainted(false);
         jButton12.setContentAreaFilled(false);
+        jButton12.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton12ActionPerformed(evt);
+            }
+        });
 
         javax.swing.GroupLayout jPanel3Layout = new javax.swing.GroupLayout(jPanel3);
         jPanel3.setLayout(jPanel3Layout);
@@ -1478,6 +1488,12 @@ public class JFEmpleados extends javax.swing.JFrame {
     private void jTextField1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField1ActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_jTextField1ActionPerformed
+
+    private void jButton12ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton12ActionPerformed
+        JFMenu fjmenu = new JFMenu();
+        fjmenu.setVisible(true);
+        this.setVisible(false);
+    }//GEN-LAST:event_jButton12ActionPerformed
 
     /**
      * @param args the command line arguments
