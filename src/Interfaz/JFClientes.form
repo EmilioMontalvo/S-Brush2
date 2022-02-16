@@ -56,14 +56,20 @@
       <Layout>
         <DimensionLayout dim="0">
           <Group type="103" groupAlignment="0" attributes="0">
-              <Group type="102" alignment="0" attributes="0">
-                  <EmptySpace min="-2" pref="118" max="-2" attributes="0"/>
+              <Group type="102" attributes="0">
                   <Group type="103" groupAlignment="0" attributes="0">
-                      <Component id="jTabbedPane2" min="-2" pref="592" max="-2" attributes="0"/>
-                      <Component id="btnAtrasClientes" min="-2" max="-2" attributes="0"/>
-                      <Component id="jLabel20" alignment="0" min="-2" max="-2" attributes="0"/>
+                      <Group type="102" attributes="0">
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="btnAtrasClientes" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace min="-2" pref="154" max="-2" attributes="0"/>
+                          <Component id="jLabel20" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace min="-2" pref="24" max="-2" attributes="0"/>
+                          <Component id="jTabbedPane2" min="-2" pref="769" max="-2" attributes="0"/>
+                      </Group>
                   </Group>
-                  <EmptySpace pref="119" max="32767" attributes="0"/>
+                  <EmptySpace pref="36" max="32767" attributes="0"/>
               </Group>
           </Group>
         </DimensionLayout>
@@ -71,12 +77,16 @@
           <Group type="103" groupAlignment="0" attributes="0">
               <Group type="102" alignment="1" attributes="0">
                   <EmptySpace max="-2" attributes="0"/>
-                  <Component id="btnAtrasClientes" min="-2" max="-2" attributes="0"/>
-                  <EmptySpace type="separate" max="-2" attributes="0"/>
-                  <Component id="jLabel20" min="-2" pref="30" max="-2" attributes="0"/>
-                  <EmptySpace min="-2" pref="31" max="-2" attributes="0"/>
-                  <Component id="jTabbedPane2" min="-2" pref="423" max="-2" attributes="0"/>
-                  <EmptySpace pref="60" max="32767" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Component id="btnAtrasClientes" min="-2" max="-2" attributes="0"/>
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace min="-2" pref="17" max="-2" attributes="0"/>
+                          <Component id="jLabel20" min="-2" pref="30" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <EmptySpace min="-2" pref="24" max="-2" attributes="0"/>
+                  <Component id="jTabbedPane2" min="-2" pref="477" max="-2" attributes="0"/>
+                  <EmptySpace pref="61" max="32767" attributes="0"/>
               </Group>
           </Group>
         </DimensionLayout>
@@ -106,12 +116,12 @@
               <Layout>
                 <DimensionLayout dim="0">
                   <Group type="103" groupAlignment="0" attributes="0">
-                      <Component id="jCBNumeroCedulaClienteCitas" alignment="0" pref="587" max="32767" attributes="0"/>
+                      <Component id="jCBNumeroCedulaClienteCitas" alignment="0" max="32767" attributes="0"/>
                   </Group>
                 </DimensionLayout>
                 <DimensionLayout dim="1">
                   <Group type="103" groupAlignment="0" attributes="0">
-                      <Component id="jCBNumeroCedulaClienteCitas" alignment="0" pref="379" max="32767" attributes="0"/>
+                      <Component id="jCBNumeroCedulaClienteCitas" alignment="0" pref="433" max="32767" attributes="0"/>
                   </Group>
                 </DimensionLayout>
               </Layout>
@@ -153,7 +163,7 @@
                                               </Group>
                                               <Component id="jLabel21" alignment="0" min="-2" max="-2" attributes="0"/>
                                           </Group>
-                                          <EmptySpace min="0" pref="285" max="32767" attributes="0"/>
+                                          <EmptySpace min="0" pref="462" max="32767" attributes="0"/>
                                       </Group>
                                   </Group>
                                   <EmptySpace max="-2" attributes="0"/>
@@ -172,7 +182,7 @@
                                   <Component id="jLabel21" min="-2" max="-2" attributes="0"/>
                                   <EmptySpace type="separate" max="-2" attributes="0"/>
                                   <Component id="jScrollPane1" min="-2" pref="105" max="-2" attributes="0"/>
-                                  <EmptySpace pref="89" max="32767" attributes="0"/>
+                                  <EmptySpace pref="143" max="32767" attributes="0"/>
                               </Group>
                           </Group>
                         </DimensionLayout>
@@ -239,20 +249,20 @@
                               <Group type="102" attributes="0">
                                   <EmptySpace max="-2" attributes="0"/>
                                   <Group type="103" groupAlignment="0" attributes="0">
-                                      <Group type="102" alignment="0" attributes="0">
-                                          <Component id="jLabel13" min="-2" max="-2" attributes="0"/>
-                                          <EmptySpace max="-2" attributes="0"/>
-                                          <Component id="jCBNumeroCedulaClienteCitasC" min="-2" pref="157" max="-2" attributes="0"/>
+                                      <Component id="jScrollPane2" alignment="0" pref="735" max="32767" attributes="0"/>
+                                      <Group type="102" attributes="0">
+                                          <Group type="103" groupAlignment="0" attributes="0">
+                                              <Group type="102" alignment="0" attributes="0">
+                                                  <Component id="jLabel13" min="-2" max="-2" attributes="0"/>
+                                                  <EmptySpace max="-2" attributes="0"/>
+                                                  <Component id="jCBNumeroCedulaClienteCitasC" min="-2" pref="157" max="-2" attributes="0"/>
+                                              </Group>
+                                              <Component id="jLabel22" alignment="0" min="-2" max="-2" attributes="0"/>
+                                          </Group>
                                           <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
                                       </Group>
-                                      <Component id="jScrollPane2" alignment="0" pref="558" max="32767" attributes="0"/>
                                   </Group>
                                   <EmptySpace max="-2" attributes="0"/>
-                              </Group>
-                              <Group type="102" alignment="0" attributes="0">
-                                  <EmptySpace max="-2" attributes="0"/>
-                                  <Component id="jLabel22" min="-2" max="-2" attributes="0"/>
-                                  <EmptySpace max="32767" attributes="0"/>
                               </Group>
                           </Group>
                         </DimensionLayout>
@@ -340,7 +350,7 @@
                               <Group type="102" attributes="0">
                                   <EmptySpace max="-2" attributes="0"/>
                                   <Group type="103" groupAlignment="0" attributes="0">
-                                      <Component id="jScrollPane3" pref="558" max="32767" attributes="0"/>
+                                      <Component id="jScrollPane3" pref="735" max="32767" attributes="0"/>
                                       <Group type="102" attributes="0">
                                           <Group type="103" groupAlignment="0" attributes="0">
                                               <Group type="102" attributes="0">
@@ -369,7 +379,7 @@
                                   <Component id="jLabel23" min="-2" max="-2" attributes="0"/>
                                   <EmptySpace type="unrelated" max="-2" attributes="0"/>
                                   <Component id="jScrollPane3" min="-2" pref="192" max="-2" attributes="0"/>
-                                  <EmptySpace pref="17" max="32767" attributes="0"/>
+                                  <EmptySpace pref="71" max="32767" attributes="0"/>
                               </Group>
                           </Group>
                         </DimensionLayout>
@@ -488,7 +498,7 @@
                                   <EmptySpace type="unrelated" max="-2" attributes="0"/>
                                   <Group type="103" groupAlignment="0" attributes="0">
                                       <Component id="jTextField9" max="32767" attributes="0"/>
-                                      <Component id="jTextField10" pref="256" max="32767" attributes="0"/>
+                                      <Component id="jTextField10" pref="433" max="32767" attributes="0"/>
                                       <Group type="102" alignment="1" attributes="0">
                                           <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
                                           <Component id="jButton7" min="-2" max="-2" attributes="0"/>
@@ -523,7 +533,7 @@
                                       <Component id="jButton16" alignment="3" min="-2" max="-2" attributes="0"/>
                                       <Component id="jButton7" alignment="3" min="-2" max="-2" attributes="0"/>
                                   </Group>
-                                  <EmptySpace pref="117" max="32767" attributes="0"/>
+                                  <EmptySpace pref="171" max="32767" attributes="0"/>
                               </Group>
                           </Group>
                         </DimensionLayout>
@@ -639,7 +649,7 @@
                                           <Component id="jLabel12" min="-2" max="-2" attributes="0"/>
                                           <EmptySpace max="-2" attributes="0"/>
                                           <Component id="jCBNumeroCedulaEliminarCliente" min="-2" pref="197" max="-2" attributes="0"/>
-                                          <EmptySpace min="0" pref="233" max="32767" attributes="0"/>
+                                          <EmptySpace min="0" pref="410" max="32767" attributes="0"/>
                                       </Group>
                                       <Group type="102" alignment="1" attributes="0">
                                           <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
@@ -665,7 +675,7 @@
                                       <Component id="jButton9" alignment="3" min="-2" max="-2" attributes="0"/>
                                       <Component id="jButton14" alignment="3" min="-2" max="-2" attributes="0"/>
                                   </Group>
-                                  <EmptySpace pref="248" max="32767" attributes="0"/>
+                                  <EmptySpace pref="302" max="32767" attributes="0"/>
                               </Group>
                           </Group>
                         </DimensionLayout>
@@ -740,7 +750,7 @@
                                           <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
                                       </Group>
                                       <Group type="102" alignment="1" attributes="0">
-                                          <EmptySpace min="0" pref="298" max="32767" attributes="0"/>
+                                          <EmptySpace min="0" pref="475" max="32767" attributes="0"/>
                                           <Component id="jButton6" min="-2" max="-2" attributes="0"/>
                                           <EmptySpace type="separate" max="-2" attributes="0"/>
                                           <Component id="jButton13" min="-2" max="-2" attributes="0"/>
@@ -768,7 +778,7 @@
                                       <Component id="jButton13" alignment="3" min="-2" max="-2" attributes="0"/>
                                       <Component id="jButton6" alignment="3" min="-2" max="-2" attributes="0"/>
                                   </Group>
-                                  <EmptySpace pref="211" max="32767" attributes="0"/>
+                                  <EmptySpace pref="265" max="32767" attributes="0"/>
                               </Group>
                           </Group>
                         </DimensionLayout>
@@ -896,7 +906,7 @@
                                   <EmptySpace max="32767" attributes="0"/>
                               </Group>
                               <Group type="102" alignment="1" attributes="0">
-                                  <EmptySpace pref="310" max="32767" attributes="0"/>
+                                  <EmptySpace pref="487" max="32767" attributes="0"/>
                                   <Component id="jButton2" min="-2" max="-2" attributes="0"/>
                                   <EmptySpace type="unrelated" max="-2" attributes="0"/>
                                   <Component id="jButton12" min="-2" max="-2" attributes="0"/>
@@ -927,7 +937,7 @@
                                       <Component id="jButton2" min="-2" max="-2" attributes="0"/>
                                       <Component id="jButton12" min="-2" max="-2" attributes="0"/>
                                   </Group>
-                                  <EmptySpace pref="185" max="32767" attributes="0"/>
+                                  <EmptySpace pref="239" max="32767" attributes="0"/>
                               </Group>
                           </Group>
                         </DimensionLayout>
@@ -1075,7 +1085,7 @@
                                   <EmptySpace type="separate" max="-2" attributes="0"/>
                                   <Group type="103" groupAlignment="0" attributes="0">
                                       <Group type="102" alignment="0" attributes="0">
-                                          <EmptySpace min="0" pref="158" max="32767" attributes="0"/>
+                                          <EmptySpace min="0" pref="335" max="32767" attributes="0"/>
                                           <Component id="jButton1" min="-2" max="-2" attributes="0"/>
                                           <EmptySpace max="-2" attributes="0"/>
                                           <Component id="jButton10" min="-2" max="-2" attributes="0"/>
@@ -1134,7 +1144,7 @@
                                       <Component id="jButton1" alignment="3" min="-2" max="-2" attributes="0"/>
                                       <Component id="jButton10" alignment="3" min="-2" max="-2" attributes="0"/>
                                   </Group>
-                                  <EmptySpace pref="100" max="32767" attributes="0"/>
+                                  <EmptySpace pref="154" max="32767" attributes="0"/>
                               </Group>
                           </Group>
                         </DimensionLayout>
