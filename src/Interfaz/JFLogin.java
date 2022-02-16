@@ -16,6 +16,9 @@ public class JFLogin extends javax.swing.JFrame {
      */
     public JFLogin() {
         initComponents();
+        setLocationRelativeTo(null);
+        this.setResizable(false);
+        
     }
 
     /**
@@ -56,9 +59,11 @@ public class JFLogin extends javax.swing.JFrame {
         jLabel4.setFont(new java.awt.Font("Arial Rounded MT Bold", 0, 24)); // NOI18N
         jLabel4.setText("Inicio de Sesión");
 
+        jButton1.setBackground(new java.awt.Color(255, 204, 204));
         jButton1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Iconos/puerta.png"))); // NOI18N
         jButton1.setText("Ingresar");
 
+        jButton2.setBackground(new java.awt.Color(255, 204, 204));
         jButton2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Iconos/salida_1.png"))); // NOI18N
         jButton2.setText("Salir");
         jButton2.addActionListener(new java.awt.event.ActionListener() {
@@ -69,6 +74,7 @@ public class JFLogin extends javax.swing.JFrame {
 
         jLabel3.setText("Tipo de Usuario:");
 
+        jComboBox1.setBackground(new java.awt.Color(255, 204, 204));
         jComboBox1.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Administrador", "Empleado" }));
 
         javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);

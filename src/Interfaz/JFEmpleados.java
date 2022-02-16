@@ -18,7 +18,8 @@ public class JFEmpleados extends javax.swing.JFrame {
      */
     public JFEmpleados() {
         initComponents();
-        
+        this.setLocationRelativeTo(null);
+        this.setResizable(false);
         
         
         
@@ -225,6 +226,10 @@ public class JFEmpleados extends javax.swing.JFrame {
         setTitle("S-Brush");
 
         jPanel3.setBackground(new java.awt.Color(255, 204, 204));
+
+        jTabbedPane1.setBackground(new java.awt.Color(255, 255, 255));
+
+        jTabbedPane4.setBackground(new java.awt.Color(255, 255, 255));
 
         jPanel1.setBackground(new java.awt.Color(255, 255, 255));
 

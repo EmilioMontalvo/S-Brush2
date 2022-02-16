@@ -25,6 +25,10 @@ public class JFMenu extends javax.swing.JFrame {
      */
     public JFMenu() {
         initComponents();
+        setLocationRelativeTo(null);
+        this.setResizable(false);
+        System.out.println(this.size());
+        
     }
 
     /**
@@ -59,7 +63,7 @@ public class JFMenu extends javax.swing.JFrame {
         jPanel3.setLayout(jPanel3Layout);
         jPanel3Layout.setHorizontalGroup(
             jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 117, Short.MAX_VALUE)
+            .addGap(0, 143, Short.MAX_VALUE)
         );
         jPanel3Layout.setVerticalGroup(
             jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -125,7 +129,7 @@ public class JFMenu extends javax.swing.JFrame {
                             .addComponent(jButton3)
                             .addComponent(jButton5))
                         .addContainerGap(420, Short.MAX_VALUE))
-                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel2Layout.createSequentialGroup()
+                    .addGroup(jPanel2Layout.createSequentialGroup()
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                         .addComponent(jButton12)
                         .addGap(101, 101, 101))))
@@ -148,7 +152,7 @@ public class JFMenu extends javax.swing.JFrame {
                 .addComponent(jButton5)
                 .addGap(7, 7, 7)
                 .addComponent(jButton12)
-                .addContainerGap(60, Short.MAX_VALUE))
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
